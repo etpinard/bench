@@ -30,7 +30,8 @@ function makeKarmaOpts (opts) {
     colors: true,
     autoWatch: false,
     singleRun: true,
-    logLevel: karma.constants.LOG_INFO
+    logLevel: karma.constants.LOG_INFO,
+    browserConsoleLogOptions: { level: 'log' }
   }
 
   opts.files.forEach(function (f) {
