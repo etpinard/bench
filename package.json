@@ -1,0 +1,35 @@
+{
+  "name": "@etpinard/bench",
+  "version": "0.1.0",
+  "description": "Personal opinionated benchmark runner - powered by karma, karma-benchmark and karma-benchmark-plotly-reporter",
+  "bin": "cli.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "standard | snazzy"
+  },
+  "keywords": [
+    "benchmark",
+    "karma",
+    "plotly"
+  ],
+  "author": "Étienne Tétreault-Pinard <etienne.t.pinard@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etpinard/bench.git"
+  },
+  "dependencies": {
+    "browserify": "^14.3.0",
+    "karma": "^1.6.0",
+    "karma-benchmark": "^0.7.1",
+    "karma-benchmark-plotly-reporter": "^1.0.0",
+    "karma-benchmark-reporter": "^0.1.1",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "watchify": "^3.9.0"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  }
+}
