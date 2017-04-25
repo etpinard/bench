@@ -1,6 +1,6 @@
 {
   "name": "@etpinard/bench",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Personal opinionated benchmark runner - powered by karma, karma-benchmark and karma-benchmark-plotly-reporter",
   "bin": "cli.js",
   "scripts": {
