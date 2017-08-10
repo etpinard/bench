@@ -1,6 +1,6 @@
 # @etpinard/bench
 
-Personal opinionated benchmark runner - powered by karma, karma-benchmark and karma-benchmark-plotly-reporter
+Personal opinionated in-browser JavaScript benchmark runner - powered by karma, karma-benchmark and karma-benchmark-plotly-reporter.
 
 ## Install
 
@@ -12,4 +12,7 @@ npm i -g @etpinard/bench
 
 ```
 bench benchmarks.js
+
+# or
+cat benchmark.js | bench
 ```
